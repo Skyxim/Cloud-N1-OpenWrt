@@ -182,15 +182,15 @@ CONFIG_PACKAGE_luci-theme-opentomcat=y
 # CONFIG_PACKAGE_ip-full is not set
 # CONFIG_PACKAGE_iptables-mod-ipsec is not set
 # CONFIG_PACKAGE_kmod-crypto-cbc is not set
-# CONFIG_PACKAGE_kmod-crypto-deflate is not set
-# CONFIG_PACKAGE_kmod-crypto-des is not set
+ #CONFIG_PACKAGE_kmod-crypto-deflate is not set
+ #CONFIG_PACKAGE_kmod-crypto-des is not set
 # CONFIG_PACKAGE_kmod-crypto-echainiv is not set
-# CONFIG_PACKAGE_kmod-crypto-hmac is not set
-# CONFIG_PACKAGE_kmod-crypto-md5 is not set
+ #CONFIG_PACKAGE_kmod-crypto-hmac is not set
+ #CONFIG_PACKAGE_kmod-crypto-md5 is not set
 # CONFIG_PACKAGE_kmod-ipsec is not set
 # CONFIG_PACKAGE_kmod-ipt-ipsec is not set
 # CONFIG_PACKAGE_kmod-iptunnel6 is not set
-# CONFIG_PACKAGE_kmod-tun is not set
+CONFIG_PACKAGE_kmod-tun=y
 # CONFIG_PACKAGE_libelf is not set
 # CONFIG_PACKAGE_libgmp is not set
 # CONFIG_PACKAGE_libminiupnpc is not set
@@ -255,7 +255,7 @@ CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
 CONFIG_PACKAGE_cgroupfs-mount=y
 CONFIG_PACKAGE_containerd=y
-CONFIG_PACKAGE_docker-ce=y
+#CONFIG_PACKAGE_docker-ce=y
 CONFIG_PACKAGE_kmod-br-netfilter=y
 CONFIG_PACKAGE_kmod-dax=y
 CONFIG_PACKAGE_kmod-dm=y
@@ -271,9 +271,10 @@ CONFIG_PACKAGE_kmod-veth=y
 CONFIG_PACKAGE_libdevmapper=y
 CONFIG_PACKAGE_libmount=y
 CONFIG_PACKAGE_libnetwork=y
-CONFIG_PACKAGE_luci-app-docker=y
-CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
+#CONFIG_PACKAGE_luci-app-docker=y
+#CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
 CONFIG_PACKAGE_mount-utils=y
 CONFIG_PACKAGE_runc=y
 CONFIG_PACKAGE_tini=y
+CONFIG_PACKAGE_luci-app-openclash=y
 EOF
