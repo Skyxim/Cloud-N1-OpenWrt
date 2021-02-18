@@ -276,5 +276,4 @@ CONFIG_PACKAGE_libnetwork=y
 CONFIG_PACKAGE_mount-utils=y
 CONFIG_PACKAGE_runc=y
 CONFIG_PACKAGE_tini=y
-CONFIG_PACKAGE_luci-app-openclash=y
 EOF
