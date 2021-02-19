@@ -166,6 +166,7 @@ CONFIG_PACKAGE_libruby=y
 CONFIG_PACKAGE_libxml2=y
 CONFIG_PACKAGE_libyaml=y
 CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_ruby=y
 CONFIG_PACKAGE_ruby-bigdecimal=y
 CONFIG_PACKAGE_ruby-date=y
