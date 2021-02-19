@@ -179,6 +179,9 @@ CONFIG_PACKAGE_ruby-stringio=y
 CONFIG_PACKAGE_ruby-strscan=y
 CONFIG_PACKAGE_ruby-yaml=y
 CONFIG_PACKAGE_luci-theme-opentomcat=y
+CONFIG_PACKAGE_netdata=y
+CONFIG_PACKAGE_luci-app-netdata=y
+CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
 # CONFIG_PACKAGE_adbyby is not set
 # CONFIG_PACKAGE_ip-full is not set
 # CONFIG_PACKAGE_iptables-mod-ipsec is not set
