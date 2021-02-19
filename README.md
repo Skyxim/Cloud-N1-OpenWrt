@@ -1,6 +1,7 @@
 # 云编译 N1 OpenWrt 固件
 
 **更新日志**
+- 20210219 删除docker，添加adguardhome，netdata等luci
 - 20210210 修正源码更新造成的编译错误，集成 docker。脚本文件调整。
 - 20201124 修正 set-env 有效性造成的编译错误
 - 20200926 修正 openclash 编译错误
